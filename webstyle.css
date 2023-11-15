@@ -8,44 +8,43 @@ body {
 }
 
 header {
-    background-color: rgb(203, 207, 228);
-    color: white;
+    border-style: double;
+    border-color: rgb(125, 133, 151);
     text-align: center;
-    padding: 20px;
-    margin: 0px;
-}
-
-nav {
-    background-color: #ffffff;
-    font-family: 'Caveat';
-    text-align: center;
-}
-
-nav a {
-    padding: 14px 15px;
-    display: inline-block;
-}
-
-nav a:hover {
-    background-color: rgb(203, 207, 228);
-    color: white;
+    padding: 10px;
+    margin: 10px;
 }
 
 h1 {
+
     font-family: 'Caveat';
+    font-size: 300%;
+    color: rgb(125, 133, 151);
 }
 
 h2 {
+
     font-family: 'Caveat';
+    color: rgb(125, 133, 151);
+    font-size: 200%;
 }
 
 p {
     font-family: 'Caveat';
+    color: rgb(125, 133, 151);
+    font-size: 100%;
+}
+
+p2 {
+
+    font-family: '標楷體';
+    color: rgb(125, 133, 151);
+    font-size: 100%;
 }
 
 footer {
-    background-color: #d0d3ed;
-    color: #444;
+
+    color: rgb(125, 133, 151);
     text-align: center;
     padding: 10px;
 }
@@ -55,18 +54,15 @@ main {
 
 }
 
-.card {
-
-    background-color: rgb(203, 207, 228);
-    padding: 20px;
-    margin: 20px 10px;
-    border-radius: 15px;
-}
-
 article {
     float: left;
-    width: 73%;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-style: double;
+    border-color: rgb(125, 133, 151);
 }
+
 
 aside {
     float: right;
